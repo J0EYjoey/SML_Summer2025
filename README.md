@@ -1,2 +1,1 @@
-# SML_Summer2025
-Course website for summer 2025
+This is the official course website of STA314H: Statistical Methods for Machine Learning I, in Summer 2025.
