@@ -1,0 +1,339 @@
+---
+title: "STA314H: Statistical Methods for Machine Learning I"
+subtitle: "Syllabus"
+date: Summer 2025
+
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+knitr::opts_chunk$set(warning = F, message = F)
+```
+
+<br>
+
+
+## <i class="glyphicon glyphicon-folder-close" aria-hidden="true"></i> Prerequisites
+-  __Statistics & Probability:__ STA302H1/ STA302H5/ STAC67H3
+- __Multivariate calculus:__ MAT235Y1 / MAT237Y1 / MAT257Y1 / (MATB41H3, MATB42H3) / (MAT232H5, MAT236H5) / (MAT233H5, MAT236H5)
+- __Linear algebra:__ MAT223H1 / MAT240H1 / MATA22H3 / MATA23H3 / MAT223H5 / MAT240H5
+- __Programming basics:__ CSC108H1 / CSC110Y1 / CSC120H1 / CSC148H1 / CSCA08H3 / CSCA48H3 / CSCA20H3 / CSC108H5 / CSC148H5
+
+
+<br>
+
+## <i class="fas fa-user-friends" aria-hidden="true"></i> Teaching Team
+- <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Instructor: [Junhao Zhu](https://j0eyjoey.github.io/junhaozhu98/), PhD student in Statistical Sciences. Email:  jh.zhu@mail.utoronto.ca
+
+- <span class="fas fa-user-friends" aria-hidden="true"></span> Teaching Assistants: TBD
+<br>
+
+******
+
+## <i class="glyphicon glyphicon-comment" aria-hidden="true"></i> Course Communication
+
+- <span class="fas fa-question" aria-hidden="true"></span> __Quercus & Piazza__ Quercus will only be used to make annoucements. We will use Piazza for the course forum to which you need to sign up via TBD. If your question is about the course material, logistics and clarification on homework & tutorial problems, please post to Piazza so that the entire class can benefit from the answer. All questions that give hint on solving homeworks should be exclusively asked during office hours. TAs will respond within 48 hours. Ask early!
+
+- <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> __Course email__ Please, do not email the instructor or TAs on their personal or professional emails, unless for absolute emergency. Instead, use the course email, sta314@course.utoronto.ca, for special requests, such as: homework extension, regrading request, absence due to illness, etc. Questions about course material will not be addressed over email and these questions should be instead directed to the course Piazza site.
+
+
+<br>
+
+******
+
+## <i class="glyphicon glyphicon-time" aria-hidden="true"></i> Office Hours
+
+- Instructor: TBD
+
+- Teaching Assistant : TBD
+
+<br>
+
+******
+
+## <i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i> Class Times and Location 
+
+Unless otherwise specified, lectures and tutorials will be held in-person. There will be no synchronous online video stream or recordings of the lectures. Students should be enrolled in a lecture section and a tutorial section. The tutorial sessions are complementary to the lectures, and provide reviews and extension of the important concepts / methods in the lectures as well as helpful demonstrations on how to use computational software to conduct statistical analysis. Students are highly encouraged and expected to attend both lectures and tutorials.
+
+<br>
+
+### _Lectures_
+
+- Time: Monday 10:00 am - 1:00 pm, Friday 2:00 pm - 5:00 pm
+- Location: [NL 6](https://map.utoronto.ca/?id=1809#!m/494486?s/)
+
+<br>
+
+### _Tutorials_
+
+```{r, echo=FALSE}
+library(tidyverse)
+TUT <- read_csv("Summer2025_TUT.csv")
+#knitr::kable(TUT[1:2,])
+schedule <- data.frame(
+  Section = c("TUT 0101", "TUT 0102"),
+  Time = c("Friday 1:00 pm-2:00 pm", "Friday 1:00 pm-2:00 pm"),
+  Location = c(
+    "[MS 4171](https://map.utoronto.ca/?id=1809#!m/494491?s/)",
+    "[HS 106](https://map.utoronto.ca/?id=1809#!m/494459?s/)"
+  )
+)
+# 
+knitr::kable(schedule, escape = FALSE, col.names = c("Section", "Time", "Location"))
+# library(tidyverse)
+# library(kableExtra)
+# 
+# schedule <- data.frame(
+#   Section = c("TUT 0101", "TUT 0102"),
+#   Time = c("Friday 1:00 pm–2:00 pm", "Friday 1:00 pm–2:00 pm"),
+#   Location = c(
+#     "[MS 4171](https://map.utoronto.ca/?id=1809#!m/494491?s/)", 
+#     "[HS 106](https://map.utoronto.ca/?id=1809#!m/494459?s/)"
+#   )
+# )
+# 
+# schedule %>%
+#   kable("html", escape = FALSE, col.names = c("Section", "Time", "Location")) %>%
+#   kable_styling(full_width = FALSE) %>%
+#   column_spec(1, extra_css = "padding-right: 40px;") %>%
+#   column_spec(2, extra_css = "padding-right: 40px;")
+
+```
+
+
+<!-- <br> -->
+
+******
+
+<!-- ## <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Course Description  -->
+
+<!-- This course is designed for graduate students in Statistics, Biostatistics, and Computer Science -->
+
+<!-- Review of probability theory, convergence of random variables, statistical models, statistical functionals, maximum likelihood estimation, and computational methods. -->
+
+<!-- <br> -->
+
+<!-- ****** -->
+
+<!-- ## <span class="glyphicon glyphicon-check" aria-hidden="true"></span> Learning objectives  -->
+
+<!-- By the end of this course, you should be able to: -->
+
+<!-- - Understand basic probability theory. -->
+
+<!-- - Evaluate convergence of sequences of random variables -->
+
+<!-- - Assess properties of estimators, primarily when $n$ is large (ie.\ asymptotics). -->
+
+<!-- - Use fundamental estimation and inference procedures (eg.\ MLE, bootstrap). -->
+
+
+<br>
+
+******
+
+
+## <span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Evaluation
+
+Students will be evaluated according to [University Assessment and Grading Practices Policy](https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012). The table below shows the weight of each assessment. 
+
+```{r, echo=FALSE}
+library(tidyverse)
+coursegrading <- read_csv("Summer2025_Grading.csv")
+knitr::kable(coursegrading[1:7,])
+```
+
+
+### _Tests_
+
+The course will have __two mandatory tests__, each with a duration of 2 hours. The midterm test is held during the normal class time while the final test is held in the final assessment period (see the dates and locations below). For the midterm test, students must take the test with their assigned section. All tests will be closed-book. Students are responsible for the material covered in lectures, tutorials, and practical sets. More details on the tests will be provided during the term.
+
+
+#### _Missed Tests_
+
+If  you missed the midterm test, its grading weight will be equally added up to the final exam that have not been taken, meaning that if you missed the midterm,  the final will be worth 75%.
+
+
+
+
+<!-- You are allowed one late day to use on a homework assignment at any time throughout the course.  You must write "I am using the late day" at the top of page 1. -->
+<!-- <br> -->
+
+<!-- ****** -->
+
+<!-- ## <span class="fas fa-globe" aria-hidden="true"></span> Course Websites -->
+
+<!-- - Class slides, notes, and other important information can be found on the [course website.](https://sta2112.github.io/) -->
+
+<!-- - Questions and Answers can be posted on the Quercus discussion board. -->
+<br>
+
+## <i class="fas fa-book" aria-hidden="true"></i> Textbooks
+
+Suggested readings:
+
+- __ESL: __ [Elements of Statistical Learning](https://link.springer.com/book/10.1007/978-0-387-84858-7), by Hastie, Tibshirani, and Friedman.
+
+- __PRML: __ [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/), by by Chris Bishop.
+
+- __MLAPP: __ [Machine Learning: a Probabilistic Perspective](https://probml.github.io/pml-book/book0.html), by Kevin Murphy.
+
+- __ISL: __ [An Introduction to Statistical Learning](https://www.statlearning.com), by James, Witten, Hastie, Tibshirani, and Taylor.
+
+
+
+<br>
+
+
+## <i class="fas fa-code" aria-hidden="true"></i> Computing
+
+### Python Programming Language 
+The course will use Python 3 for computing, and libraries such as [Numpy](https://numpy.org), [Scipy](https://scipy.org), [scikit-klearn](https://scikit-learn.org/stable/) and [Torch](https://pytorch.org) (mainly for DNNs,  LLMs, etc.). We will not be expecting you to know advanced Python programming, however we will expect that you are able to do the following:
+
+- navigate the file structure of a basic Python project,
+
+- execute and read through Python scripts while understanding the distinction between code that executes and comments,
+
+- basic Python programming, including calling and defining functions; assigning variables, evaluating expressions, the basics of loops, etc.
+
+- read [Numpy](https://numpy.org), [Scipy](https://scipy.org), [sklearn](https://scikit-learn.org/stable/) documentation to understand their API.
+
+<br>
+
+
+
+### Python Tutorials
+
+- In [Python Tutorial](https://docs.python.org/3/tutorial/) you can find a variety of great tutorials to get you started. In particular, this [Numpy Tutorial](https://realpython.com/numpy-tutorial/).
+
+<br>
+
+### Using Python
+
+There are a few options for running Python yourself.
+
+- The easiest option is probably to install everything yourself on your own machine.
+  - If you don’t already have python, install it. We recommend using [Anaconda](https://www.anaconda.com).
+  - Optionally, create a virtual environment for this class and step into it. If you have a conda distribution run the following commands:<pre style="background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 6px; padding: 10px; font-family: monospace; font-size: 14px; margin: 0;">
+    conda create --name sta314
+    source activate sta314
+    </pre>
+  - Use pip to install the required packages:
+  <pre style="background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 6px; padding: 10px; font-family: monospace; font-size: 14px; margin: 0;">
+pip install scipy numpy autograd matplotlib jupyter sklearn
+</pre>
+
+- You may also consider using [UofT Jupyter Hub](https://datatools.utoronto.ca) or [Google Colab](https://colab.research.google.com/drive/). 
+  
+
+*******
+## <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Course Policies
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Missed Work Policy {#missed_work}
+
+Valid reasons for missing an assessment include: illness, injury, or other relevant personal issues. Any of the following types of documentation will be accepted to verify a student’s reason for missing an assessment:
+
+* [University of Toronto Verification of Student Illness or Injury form](http://www.illnessverification.utoronto.ca/index.php). The form must indicate that the degree of incapacitation on academic functioning is moderate, serious, or severe in order to be considered a valid medical reason for missing.
+
+* Student Health or Disability Related Certificate.
+
+* A College Registrar’s Letter.
+
+* Accessibility Services Letter.
+
+If an assignment due date is missed for a valid reason then your assignment will not be subject to a late penalty.
+
+Other reasons for missing an assignment due date, without documentation, will require prior approval by your instructor. If prior approval is not received and an assessment is not submitted on time then your assessment will be subject to a late penalty (see [Late Penalty](#late_penalty)).
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Late Penalty {#late_penalty}
+The late penalty for a missed due date is 20% per day (i.e., 24 hours). For example, if the work is submitted after 5 days (including weekend days and holidays) then you will receive a grade of zero for the missed work.
+
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Collaboration Policy 
+Collaboration on the tests is strictly not allowed, and you must not discuss the test with anyone other than the instructor or TAs. Each student is responsible for his/her own work. Violation of this policy is an academic offence and will be investigated and reported as such.
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Ragrading Policy 
+
+
+Regrading requests should be submitted to the course email sta314@course.utoronto.ca. Regrading requests must include student name, student number, and a justification for the request, which refers specifically to the problem and the student’s answers. Requests without this justification will not be considered. Requests will be considered by the same TA who marked the problem. The deadline for requesting a regrading is one week after the marks are returned. Regrading requests may result in a decrease in the grade.
+
+<br>
+
+
+<!-- ### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Marking Concerns -->
+
+<!-- Any requests to have your work remarked must contain a written justification for consideration.  Remarking requests should be made within one week of receiving your marked work.  Re-evaluation appeals are at the discretion of the instructors.  Note that adjustments in marks will be rare and could equally result in a lowering or raising of the mark.  If a re-revaluation is completed by the instructors, the student must accept the resulting mark as the new mark, whether it goes up or down or remains the same.  When appealing a re-evaluation decision, the student accepts this condition. -->
+
+<!-- <br> -->
+
+
+<!-- ### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Communicating with the teaching team {#communicating} -->
+
+<!-- Questions about course material or organization, such as, -->
+
+<!-- - Is it appropriate to use this statistical method? -->
+<!-- - How do I get rid of this error message? -->
+<!-- - What is the due date? -->
+
+<!-- should be posted on the Quercus discussion board.  -->
+
+<!-- If your communication is private, such as, "I missed the test because I was ill", then contact your instructor. -->
+
+<!-- Always use the direct messaging functionality on [Quercus](https://q.utoronto.ca/) to ensure that your message reaches out the instructor and/or TA's. Allow up to 72 business hours for a reply. Regular emails will not be answered.  -->
+
+<!-- <br> -->
+
+
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Academic Integrity
+
+The University supports acting in honesty, trust, fairness, respect, responsibility, and courage in all aca- demic matters. Students are responsible for knowing the content of the [Universitys Code of Behaviour on Academic Matters](https://governingcouncil.utoronto.ca/secretariat/policies/code-behaviour-academic-matters-july-1-2019). All suspected cases of academic dishonesty will be investigated following proce- dures outlined in the Code of Behaviour above. If you have questions or concerns about what constitutes appropriate academic behaviour or appropriate research and citation methods, you are expected to seek out additional information on academic integrity from your instructor or from other institutional resources (http://academicintegrity.utoronto.ca/).
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Accessibility Needs
+
+Students with diverse learning styles and needs are welcome in this course. If you have an acute or ongoing disability issue or accommodation need, you should register with Accessibility Services (AS) at the beginning of the academic year by visiting [http://www.studentlife.utoronto.ca/as/new-registration](http://www.studentlife.utoronto.ca/as/new-registration). Without registration, you will not be able to verify your situation with your instructors, and instructors will not be advised about your accommodation needs. AS will assess your situation, develop an accommodation plan with you, and support you in requesting accommodation for your course work. Remember that the process of accommodation is private: AS will not share details of your needs or condition with any instructor, and your instructors will not reveal that you are registered with AS
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Religious Accomodations
+
+As a student at the University of Toronto, you are part of a diverse community that welcomes and includes students and faculty from a wide range of cultural and religious traditions. For my part, I will make every reasonable effort to avoid scheduling tests, examinations, or other compulsory activities on religious holy days not captured by statutory holidays. Further to University Policy, if you anticipate being absent from class or missing a major course activity (such as a test or in-class assignment) due to a religious observance, please let me know as early in the course as possible, and with sufficient notice (at least two to three weeks), so that we can work together to make alternate arrangements.
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Specific Medical Circumstances
+
+If you become ill and it affects your ability to do your academic work, consult me right away. Normally, I will ask you for medical documentation in support of your specific medical circumstances. The University’s Verification of Student Illness or Injury (VOI) form is recommended because it indicates the impact and severity of the illness, while protecting your privacy about the details of the nature of the illness. You can submit a different form (like a letter from a doctor), as long as it is an original document, and it contains the same information as the VOI. For more information, please see [http://www.illnessverification.utoronto.ca](http://www.illnessverification.utoronto.ca) If you get a concussion, break your hand, or suffer some other acute injury, you should register with Accessibility Services as soon as possible.
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Accommodation for Personal Reasons
+There may be times when you are unable to complete course work on time due to non-medical reasons. If you have concerns, speak to me or to an advisor in the Registrar’s office; they can help you to decide if you want to request an extension or accommodation. They may be able to provide you with a Registrar’s letter of support to give to your instructors, and importantly, connect you with other resources on campus for help with your situation.
+
+<br>
+
+******
+
+## <i class="fas fa-user-plus" aria-hidden="true"></i> Acknowledgements
+
+Special thanks to Prof. Jesse Gronsbell and Prof. Xin Bing for sharing their course website templates and materials.
+
+****** 
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+

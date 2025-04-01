@@ -1,0 +1,63 @@
+---
+title: "Tutorials"
+output: 
+  html_document:
+   toc: true
+   toc_depth: 3
+   toc_float: true
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+library(tidyverse)
+```
+
+******
+
+# Tutorial 1: Linear Algebras and Calculus Review
+
+- __Problems__: TBD
+<!-- * [Problems](https://drive.google.com/file/d/1YZPkFNnFJKssjYE0AUE3kxKRRbLzdyTz/view?usp=sharing) -->
+<!-- * [Solution](https://drive.google.com/file/d/1kRQErAxbK__yyg3AZDXZtXK5G6LlgSbf/view?usp=sharing) -->
+<!-- * [Extra](https://drive.google.com/file/d/1bdvHrT0-SZ_5sAAhnP66z6juPSlwlZMx/view?usp=sharing) -->
+
+
+<!-- # Tutorial 2: Normal Distribution -->
+
+<!-- * [Problems](https://drive.google.com/file/d/113-KBs8AEoFSmmrhuqKPM5S4vDS-4z7r/view?usp=sharing) -->
+<!-- * [Solution](https://drive.google.com/file/d/1QBKihanEV7wJsBzbCEYHcnKAYsIxp_HK/view?usp=sharing)  -->
+<!-- * [Extra (can open using Google colab or download)](https://drive.google.com/file/d/1RjM8KyxbMqMw-2bOBHalJZHCuO4LSo9e/view?usp=sharing) -->
+
+
+<!-- # Tutorial 3: Inequalities -->
+
+<!-- * [Problems](https://drive.google.com/file/d/11rpSbwMyuqK_J0HfmC4g_3Un42prTBR7/view?usp=sharing) -->
+<!-- * [Solution](https://drive.google.com/file/d/1JfWKVsLJ91oUcDUgewc9Js0OTZekuXGb/view?usp=sharing) -->
+<!-- * [Extra](https://drive.google.com/file/d/1ElHwNfN7zmvsyNN74ctKNWsO7r1HPpAs/view?usp=sharing) -->
+
+<!-- # Tutorial 4: Convergence -->
+<!-- * [Problems](https://drive.google.com/file/d/1qTOmJ8FMfm3ihmtcmo0_rDYMjyOeTLK7/view?usp=sharing) -->
+<!-- * [Solution](https://drive.google.com/file/d/1Y8AUr1yWkrzNw4BhxumRFxaKGmdfegWZ/view?usp=sharing) -->
+<!-- * [Extra](https://drive.google.com/file/d/1LYAFroA4WRZ4wcVr36UtDcfjKwJJ7GRU/view?usp=sharing) -->
+
+<!-- # Tutorial 5: Convergence_II -->
+<!-- * [Problems](https://drive.google.com/file/d/1W1LMKBvKZuYs1Rkp2ecQd0uPXreTAu1m/view?usp=sharing) -->
+<!-- * [Solution](https://drive.google.com/file/d/1JE4hIGRtbgl-Ee9vZA51VbhFLkAIMXXP/view?usp=sharing) -->
+
+
+<!-- # Tutorial 6: Inference -->
+<!-- * [Problems](https://drive.google.com/file/d/1_9dkOYm0qr8W_3jpkN7_ZBNwO-Yri1hl/view?usp=sharing) -->
+<!-- * [Solution](https://drive.google.com/file/d/1oUqip5Ho-P5fKe0_xB90ziU8vssaf48e/view?usp=sharing) -->
+
+<!-- # Tutorial 7: Midterm Review -->
+<!-- * [Problems](https://drive.google.com/file/d/1-f3yzdnSknMJZ_DU6s-Ge8JtR-D2RRhp/view?usp=sharing) -->
+<!-- * [Solution](https://drive.google.com/file/d/1MhFa6uDeQuV6K5vhwZIEArvhPKRrGbrU/view?usp=sharing) -->
+
+<!-- # Tutorial 8: Likelihood_I -->
+<!-- * [Problems](https://drive.google.com/file/d/1MNwuk76Z8dAUmwfaJ_dXB94sERDP0xw9/view?usp=sharing) -->
+<!-- * [Solution](https://drive.google.com/file/d/19jlLH75f8svbAQwCFl-AOLCiZpdEVPQb/view?usp=sharing) -->
+
+<!-- # Tutorial 9: Likelihood_II -->
+<!-- * [Problems](https://drive.google.com/file/d/1tePKAkHMEDRPGrwxHt1HmHIAd_J23t4k/view?usp=sharing) -->
+<!-- * [Solutions](https://drive.google.com/file/d/1sE-nmaq50DIPagotN1yt7KW0JwIR-WPi/view?usp=sharing) -->

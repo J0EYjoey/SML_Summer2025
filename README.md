@@ -1,1 +1,3 @@
-This is the official course website of STA314H: Statistical Methods for Machine Learning I, in Summer 2025.
+# STA2112-MathStat
+
+Materials for STA2112: Mathematical Statistics I at University of Toronto.

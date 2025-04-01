@@ -1,0 +1,90 @@
+---
+title: "Lecture Notes"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+    theme: flatly
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
+```
+
+******
+
+<br>
+
+## Lecture 1: Introduction
+
+* __Slide__:TBD
+
+<!-- * [Probability Review I](https://drive.google.com/file/d/1CcavZMf0Lzu6TTaga6k8dzdBIfWQJ96B/view?usp=sharing) -->
+<!-- * [Probability Review II](https://drive.google.com/file/d/1hA2L4Fg4C5lzUYjXoyFLcli4GjJ59xXa/view?usp=sharing) -->
+
+<!-- ## Lecture 2: Inequalities -->
+
+<!-- * [Slides](https://drive.google.com/file/d/1uleYpoJT68laoOWOrx3gMtt9842JMgvB/view?usp=sharing) -->
+
+<!-- * [Slides with scribbles](https://drive.google.com/file/d/1y55dTsWYrHEl2sHbKRsmHuvuMu43QoU0/view?usp=sharing) -->
+
+<!-- ## Lecture 3: Convergence I -->
+
+<!-- * [Slides](https://drive.google.com/file/d/123SCNUwTaEr9yZXVxjEu0faCt9o4wp7o/view?usp=sharing) -->
+
+<!-- * [Slides with scribbles](https://drive.google.com/file/d/1JOpNBijVZ0EmCHUmuzFoHQaNNcEz1NAH/view?usp=sharing) -->
+
+<!-- ## Lecture 4: Convergence II -->
+
+<!-- * [Slides](https://drive.google.com/file/d/1wSChRCZYnjp10Yucs04C-lP2hDlKoZdJ/view?usp=sharing) -->
+
+<!-- * [Slides with scribbles](https://drive.google.com/file/d/1E2bI9CDh0YH1IsOuIBAUHjz4D7XnOQHv/view?usp=sharing) -->
+
+<!-- ## Lecture 5: Limit Theorems -->
+
+<!-- * [Slides](https://drive.google.com/file/d/1hDQIaF_nxdv6ImRsAm_iQHzDf6gKzaKg/view?usp=sharing) -->
+
+<!-- * [Slides with scribbles](https://drive.google.com/file/d/1STxZlUEpxfh4zXpPbtEgd5tMMg6KrUk5/view?usp=sharing)  -->
+
+
+<!-- ## Lecture 6: Inference -->
+
+<!-- * [Slides](STA2112_Lecture6_Inference_2024.pdf) -->
+
+<!-- * [Practice midterms](https://drive.google.com/drive/folders/1ywgMNRm0hjVzzTXHyzvzKN4UTLz5Dg4p?usp=share_link) -->
+
+<!-- * [Slides with scribbles](https://drive.google.com/file/d/18igSSldzFsHNyzjvrN2yOY5lH0cLkp08/view?usp=sharing) -->
+
+<!-- ## Lecture 7: Review -->
+
+<!-- * [Slides](https://drive.google.com/file/d/1P4MO7-UTRKYp0QHolKJjG6g8TaVoM1jO/view?usp=sharing) -->
+
+<!-- * [Slides with scribbles](https://drive.google.com/file/d/1pDwHDEoQfbNpD5OJb5MSOn6bw5LeZphB/view?usp=sharing) -->
+
+<!-- * [Practice problems solutions](https://drive.google.com/file/d/1ZnWW0smCG_FLajO57o7VPbXVnn7HBpbY/view?usp=sharing) -->
+
+<!-- ## Lecture 8: Nonparametric Inference -->
+
+<!-- * [Slides](https://drive.google.com/file/d/1C1txT_EBAjdq9rwX-6N-GOB2vo4DS_za/view?usp=sharing) -->
+
+<!-- * [Slides with scribbles](https://drive.google.com/file/d/1U_mR2KELhQy4Ch7QRO4yf-tXqraPz_yb/view?usp=sharing) -->
+
+<!-- * [Final Project](https://drive.google.com/file/d/1i8XChf0KLUPSS7IvGOKLSCv9mLbG0xGO/view?usp=sharing) -->
+
+<!-- * [Final Project with scribbles](https://drive.google.com/file/d/1zxCdNsPhX7yS6DQWzZrmJMQxdU88B1AB/view?usp=sharing) -->
+
+
+<!-- ## Lecture 9: Parametric Inference -->
+
+<!-- * [Slides](https://drive.google.com/file/d/1b1UfRKBuA1NHHfvy93BqnCo1ezRzY8Pb/view?usp=sharing) -->
+
+<!-- * [Slides with scribbles](https://drive.google.com/file/d/1mFBx7YhH76CWYVUlzr75_qT9DGtF8kE9/view?usp=sharing) -->
+
+
+<!-- ## Lecture 10: MLE Asymptotics -->
+
+<!-- * [Slides](https://drive.google.com/file/d/1DtU34x9yXoCzndl_vBi6fsRsE9O64JPX/view?usp=sharing) -->
