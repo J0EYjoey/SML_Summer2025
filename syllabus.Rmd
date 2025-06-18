@@ -145,7 +145,7 @@ Students will be evaluated according to [University Assessment and Grading Pract
 ```{r, echo=FALSE}
 library(tidyverse)
 coursegrading <- read_csv("Summer2025_Grading.csv")
-knitr::kable(coursegrading[1:7,])
+knitr::kable(coursegrading[1:6,])
 ```
 
 
