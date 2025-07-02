@@ -30,7 +30,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 ## <i class="fas fa-user-friends" aria-hidden="true"></i> Teaching Team
 - <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Instructor: [Junhao Zhu](https://j0eyjoey.github.io/junhaozhu98/), PhD student in Statistical Sciences. Email:  jh.zhu@mail.utoronto.ca
 
-- <span class="fas fa-user-friends" aria-hidden="true"></span> Teaching Assistants: TBD
+- <span class="fas fa-user-friends" aria-hidden="true"></span> Teaching Assistants:  Arturo Esquivel Fuente, Arian Hashemzadeh Amirkhizi, Maksim Helmann
 <br>
 
 ******
@@ -145,7 +145,7 @@ Students will be evaluated according to [University Assessment and Grading Pract
 ```{r, echo=FALSE}
 library(tidyverse)
 coursegrading <- read_csv("Summer2025_Grading.csv")
-knitr::kable(coursegrading[1:6,])
+knitr::kable(coursegrading[1:7,])
 ```
 
 
