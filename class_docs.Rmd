@@ -23,7 +23,8 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 
 * [Slides](https://drive.google.com/file/d/1m1PGB40786SMP11YB0vgevaig-SGLEMP/view?usp=sharing)
-
+* [Numpy Tutorial](https://drive.google.com/file/d/14TOP0Q0YrVJ2vpIrdmwzgs0DF3WpmRLV/view?usp=sharing)
+* [Demo](https://drive.google.com/file/d/1_6vH0BfXkpMPNQs08HKwzidMI7-Vc6QW/view?usp=sharing) 
 
 <!-- ## Lecture 2: Inequalities -->
 
