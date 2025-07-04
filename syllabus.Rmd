@@ -48,9 +48,15 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 ## <i class="glyphicon glyphicon-time" aria-hidden="true"></i> Office Hours
 
-- Instructor: TBD
+- Junhao Zhu: Friday 10am-11am
 
-- Teaching Assistant : TBD
+- Arturo Esquivel Fuente: Tuesdays and Thursdays 9:30am - 10:30 am
+  
+-  Arian Hashemzadeh Amirkhizi: Thursdays 1pm-3pm
+  
+-  Maksim Helmann: Wednesdays 3pm-5pm
+  
+  
 
 <br>
 
