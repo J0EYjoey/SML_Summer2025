@@ -31,8 +31,9 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * [LEC 2](https://drive.google.com/file/d/1oJ_VoaD2M3bTUNHtpCS9qYzFn-wch120/view?usp=sharing)
 * [Recap of math](https://drive.google.com/file/d/1wE6bd-cW_2OIQ8umrqAGf9bK1tsy3nCu/view?usp=sharing)
 * [Demo](https://drive.google.com/file/d/1Qxpm6-1ILLryQsMjwrrx9IdMz9zhhTZU/view?usp=sharing)
+* [Recap with scribbles](https://drive.google.com/file/d/1aRZXY3pgEjO8dgnOoCD7YkbGdMNuX7DW/view?usp=sharing)
+* [LEC2 with scribbles](https://drive.google.com/file/d/1JIX7n1nd3rxkgWKkAxuDayPaI4n7gETu/view?usp=sharing)
 
-<!-- * [Slides with scribbles](https://drive.google.com/file/d/1y55dTsWYrHEl2sHbKRsmHuvuMu43QoU0/view?usp=sharing) -->
 
 <!-- ## Lecture 3: Convergence I -->
 
