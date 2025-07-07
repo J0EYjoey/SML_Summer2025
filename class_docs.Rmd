@@ -22,14 +22,14 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 ## Lecture 1: Introduction
 
 
-* [Slides 1](https://drive.google.com/file/d/1m1PGB40786SMP11YB0vgevaig-SGLEMP/view?usp=sharing)
-* [Slides 2](https://drive.google.com/file/d/1oJ_VoaD2M3bTUNHtpCS9qYzFn-wch120/view?usp=sharing)
+* [LEC 1](https://drive.google.com/file/d/1m1PGB40786SMP11YB0vgevaig-SGLEMP/view?usp=sharing)
 * [Numpy Tutorial](https://drive.google.com/file/d/14TOP0Q0YrVJ2vpIrdmwzgs0DF3WpmRLV/view?usp=sharing)
 * [Demo](https://drive.google.com/file/d/1_6vH0BfXkpMPNQs08HKwzidMI7-Vc6QW/view?usp=sharing) 
 
-<!-- ## Lecture 2: Inequalities -->
+## Lecture 2: Review of basic math, LEC 1, and Linear models
 
-<!-- * [Slides](https://drive.google.com/file/d/1uleYpoJT68laoOWOrx3gMtt9842JMgvB/view?usp=sharing) -->
+* [LEC 2](https://drive.google.com/file/d/1oJ_VoaD2M3bTUNHtpCS9qYzFn-wch120/view?usp=sharing)
+* [Recap of math](https://drive.google.com/file/d/1wE6bd-cW_2OIQ8umrqAGf9bK1tsy3nCu/view?usp=sharing)
 
 <!-- * [Slides with scribbles](https://drive.google.com/file/d/1y55dTsWYrHEl2sHbKRsmHuvuMu43QoU0/view?usp=sharing) -->
 
