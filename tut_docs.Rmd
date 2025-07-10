@@ -15,12 +15,11 @@ library(tidyverse)
 
 ******
 
-# Tutorial 1: Linear Algebras and Calculus Review
+# Tutorial 1: Probability Review, Training, Validation, Test Set and Model Selection
 
-- __Problems__: TBD
-<!-- * [Problems](https://drive.google.com/file/d/1YZPkFNnFJKssjYE0AUE3kxKRRbLzdyTz/view?usp=sharing) -->
-<!-- * [Solution](https://drive.google.com/file/d/1kRQErAxbK__yyg3AZDXZtXK5G6LlgSbf/view?usp=sharing) -->
-<!-- * [Extra](https://drive.google.com/file/d/1bdvHrT0-SZ_5sAAhnP66z6juPSlwlZMx/view?usp=sharing) -->
+ 
+* [Slides](https://drive.google.com/file/d/12SurJMqKjok0DHpustBwM10H6Nl8sBqU/view?usp=sharing) 
+* [Code](https://drive.google.com/file/d/15N98ex4cIRg2p4m2SNdYib_TmR9FWd29/view?usp=sharing) 
 
 
 <!-- # Tutorial 2: Normal Distribution -->
