@@ -37,7 +37,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 ## <i class="glyphicon glyphicon-comment" aria-hidden="true"></i> Course Communication
 
-- <span class="fas fa-question" aria-hidden="true"></span> __Quercus & Piazza__ Quercus will only be used to make annoucements. We will use Piazza for the course forum to which you need to sign up via TBD. If your question is about the course material, logistics and clarification on homework & tutorial problems, please post to Piazza so that the entire class can benefit from the answer. All questions that give hint on solving homeworks should be exclusively asked during office hours. TAs will respond within 48 hours. Ask early!
+- <span class="fas fa-question" aria-hidden="true"></span> __Quercus & Piazza__ Quercus will only be used to make annoucements. We will use Piazza for the course forum to which you need to sign up via link inthe Lec 1 slides. If your question is about the course material, logistics and clarification on homework & tutorial problems, please post to Piazza so that the entire class can benefit from the answer. All questions that give hint on solving homeworks should be exclusively asked during office hours. TAs will respond within 48 hours. Ask early!
 
 - <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> __Course email__ Please, do not email the instructor or TAs on their personal or professional emails, unless for absolute emergency. Instead, use the course email, sta314@course.utoronto.ca, for special requests, such as: homework extension, regrading request, absence due to illness, etc. Questions about course material will not be addressed over email and these questions should be instead directed to the course Piazza site.
 
