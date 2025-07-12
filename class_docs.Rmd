@@ -39,6 +39,8 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 * [LEC 3](https://drive.google.com/file/d/1NUpSaUxjgvG1qqIa0US5lNz5uJJl0Pk8/view?usp=sharing)
 * [Demo](https://drive.google.com/file/d/1pgQr9v6HA01KY7y26c7u4x_l-PwUP-Ph/view?usp=sharing)
+* [LEC3 with scribbles](https://drive.google.com/file/d/1oAk6vl1ZDAjxWRF0KzHmmPU_zfr-sqdV/view?usp=sharing)
+* [Extra Note on Ridge and CV](https://drive.google.com/file/d/1Y2EiKZALKZZdF_0-xHnNvfXgXAOBxoFe/view?usp=sharing)
 
 
 <!-- * [Slides](https://drive.google.com/file/d/1wSChRCZYnjp10Yucs04C-lP2hDlKoZdJ/view?usp=sharing) -->
