@@ -43,7 +43,9 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * [Extra Note on Ridge and CV](https://drive.google.com/file/d/1Y2EiKZALKZZdF_0-xHnNvfXgXAOBxoFe/view?usp=sharing)
 
 
-<!-- * [Slides](https://drive.google.com/file/d/1wSChRCZYnjp10Yucs04C-lP2hDlKoZdJ/view?usp=sharing) -->
+## Lecture 4: Gradient, Classification, and Logistic Regression.
+
+* [Slides](https://drive.google.com/file/d/1411tM95gBqrcTXhw3q09Xfm8vNhvDii6/view?usp=sharing)
 
 <!-- * [Slides with scribbles](https://drive.google.com/file/d/1E2bI9CDh0YH1IsOuIBAUHjz4D7XnOQHv/view?usp=sharing) -->
 
