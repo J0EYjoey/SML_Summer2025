@@ -4,3 +4,4 @@ Week,Date,Session,Title,Suggested Readings
 2,07-Jul,Lecture ,"Review  of basic math and LEC1, Linear Model","ESL 3.1-3.2.2, ISL3.1-3.3"
 ,11-Jul,Tutorial,Validation Set,ISL 5.1
 ,11-Jul,Lecture ,"Cross-Validation, Regularized Linear Model","ISL 5.1, 6.2, ESL3.41-3.43"
+3,14-Jul,Lecture ,"Gradient Descent, Classifcation, Logistic Regression","ESL 4.4, ISL 2.2, 4.1-4.3"
