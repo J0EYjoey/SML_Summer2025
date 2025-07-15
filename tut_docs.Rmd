@@ -21,8 +21,10 @@ library(tidyverse)
 * [Slides](https://drive.google.com/file/d/12SurJMqKjok0DHpustBwM10H6Nl8sBqU/view?usp=sharing) 
 * [Code](https://drive.google.com/file/d/15N98ex4cIRg2p4m2SNdYib_TmR9FWd29/view?usp=sharing) 
 
+# Tutorial 2: Lab for GD and Logistic Regression
 
-<!-- # Tutorial 2: Normal Distribution -->
+* [Code](https://drive.google.com/file/d/14u6MCJPMXjo5ojqNagWSc76n3sZtCm5B/view?usp=sharing)
+ 
 
 <!-- * [Problems](https://drive.google.com/file/d/113-KBs8AEoFSmmrhuqKPM5S4vDS-4z7r/view?usp=sharing) -->
 <!-- * [Solution](https://drive.google.com/file/d/1QBKihanEV7wJsBzbCEYHcnKAYsIxp_HK/view?usp=sharing)  -->
