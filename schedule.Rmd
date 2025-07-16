@@ -28,6 +28,8 @@ summercourseschedule <- read_csv("Summer2025_schedule - Sheet1.csv")
 knitr::kable(summercourseschedule[1:26,]) %>%
   kable_styling(full_width = T, position = "float_left")   %>%
   row_spec(row_nums ,background = my_backgrounds[2])
+
+
 ```
 
 <br>
