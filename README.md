@@ -1,3 +1,2 @@
-# STA2112-MathStat
-
-Materials for STA2112: Mathematical Statistics I at University of Toronto.
+# STA314-Summer 2025 
+Materials for STA314 Summer 2025 at University of Toronto.
