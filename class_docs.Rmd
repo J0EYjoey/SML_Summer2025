@@ -50,12 +50,12 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * [LEC 4 with scribbles](https://drive.google.com/file/d/1TasfQOyI86cXY2Not_PkwslJvY47F4Rj/view?usp=sharing)
 * [Practice Midterm](https://drive.google.com/file/d/1_b7UemW09D66H_k9iAjQuD1cnyMATULy/view?usp=sharing)
 
+## Lecture 5: Confusion Matrix, Multi-class Logistic Regression,  Convex Functions.
 <!-- ## Lecture 5: Limit Theorems -->
 
-<!-- * [Slides](https://drive.google.com/file/d/1hDQIaF_nxdv6ImRsAm_iQHzDf6gKzaKg/view?usp=sharing) -->
+* [Demo](https://drive.google.com/file/d/1U2jTqfsJj1idw596W-jWVEjK4nWSkaFg/view?usp=sharing)
 
-<!-- * [Slides with scribbles](https://drive.google.com/file/d/1STxZlUEpxfh4zXpPbtEgd5tMMg6KrUk5/view?usp=sharing)  -->
-
+* [LEC 5](https://drive.google.com/file/d/1g1qUMsK6K062foyaGMslwbQpuLBdlc4n/view?usp=sharing)  
 
 <!-- ## Lecture 6: Inference -->
 
