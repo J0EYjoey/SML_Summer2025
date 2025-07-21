@@ -57,6 +57,8 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 * [LEC 5](https://drive.google.com/file/d/1g1qUMsK6K062foyaGMslwbQpuLBdlc4n/view?usp=sharing)  
 
+* [LEC 5 with scribbles](https://drive.google.com/file/d/1VE99B-7nToY1GFZuL8NuW_wXOyPZItyW/view?usp=sharing)
+
 <!-- ## Lecture 6: Inference -->
 
 <!-- * [Slides](STA2112_Lecture6_Inference_2024.pdf) -->
