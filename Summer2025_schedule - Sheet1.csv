@@ -6,4 +6,4 @@ Week,Date,Session,Title,Suggested Readings
 ,11-Jul,Lecture ,"Cross-Validation, Regularized Linear Model","ISL 5.1, 6.2, ESL3.41-3.43"
 3,14-Jul,Lecture ,"Gradient Descent, Classifcation, Logistic Regression","ESL 4.4, ISL 2.2, 4.1-4.3"
 ,18-Jul,Tutorial,Numerical Experiments for GD and Logistic Reg,
-,18-Jul,Lecture ,"Confusion Matrix, and Multiclass-Logistic Regression","ESL 4.4, ISL 2.2, 4.1-4.3"
+,18-Jul,Lecture ,"Confusion Matrix, Convex Opt and Multiclass-Logistic Regression","ESL 4.4, ISL 2.2, 4.1-4.3"
