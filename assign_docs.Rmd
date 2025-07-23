@@ -14,12 +14,12 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 All assignments will be posted to this section approximately 1-2 weeks before the due date listed on the course schedule.  Assignments are to be submitted through Crowdmark.  Even though some assignments may appear short, they take longer than expected to complete. Please do not leave things until the last minute.  The homework solutions will be posted on Quercus under the 'Files' tab.
 
-# Assignment 1 (due 17-July)
+## Assignment 1 (due 17-July)
 
 * [Handouts](https://drive.google.com/file/d/17dA_asrINz8GzmGv79vXkpUw03Efau3F/view?usp=sharing)
 * [Jupyter Notebook](https://drive.google.com/file/d/1RA-CoL_w5YiM9AV2jY2BCKTB3kvrEZvq/view?usp=sharing)
 
-# Assignment 2 (due 31-July)
+## Assignment 2 (due 31-July)
 
 * [Handouts](https://drive.google.com/file/d/1AEpSdw8P5RcEG9-nyq0ay86kulbsZaX7/view?usp=sharing)
 * [Jupyter Notebook Problem 3](https://drive.google.com/file/d/1CIHt20Tg28gmuu1Gz7BIkssXq9jn8XRp/view?usp=sharing)

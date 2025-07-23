@@ -15,17 +15,17 @@ library(tidyverse)
 
 ******
 
-# Tutorial 1: Probability Review, Training, Validation, Test Set and Model Selection
+## Tutorial 1: Probability Review, Training, Validation, Test Set and Model Selection
 
  
 * [Slides](https://drive.google.com/file/d/12SurJMqKjok0DHpustBwM10H6Nl8sBqU/view?usp=sharing) 
 * [Code](https://drive.google.com/file/d/15N98ex4cIRg2p4m2SNdYib_TmR9FWd29/view?usp=sharing) 
 
-# Tutorial 2: Lab for GD and Logistic Regression
+## Tutorial 2: Lab for GD and Logistic Regression
 
 * [Code](https://drive.google.com/file/d/14u6MCJPMXjo5ojqNagWSc76n3sZtCm5B/view?usp=sharing)
  
-# Tutorial 3: Gradient descent with numpy and torch
+## Tutorial 3: Gradient descent with numpy and torch
 
 * [Code](https://colab.research.google.com/drive/1X3bEav-DZozmaWx-o3g0GgDSkBd5tQvD?usp=sharing)
 
