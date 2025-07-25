@@ -60,10 +60,13 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * [LEC 5 with scribbles](https://drive.google.com/file/d/1VE99B-7nToY1GFZuL8NuW_wXOyPZItyW/view?usp=sharing)
 
 ## Midterm 
+
 * [Practice Midterm](https://drive.google.com/file/d/1_b7UemW09D66H_k9iAjQuD1cnyMATULy/view?usp=sharing)
 * [Midterm Solutions](https://drive.google.com/file/d/1nKMH9Sqye7br4nFRA-gOR8EuXTOrGpCL/view?usp=sharing)
 
-<!-- * [Slides](STA2112_Lecture6_Inference_2024.pdf) -->
+## Lecture 6: Gaussian Discriminant Analysis, Naive Bayes
+
+*  [Slides](https://drive.google.com/file/d/1idN7XG-J9UTRhtULkEhAQgn0MsYGwQwW/view?usp=sharing)
 
 <!-- * [Practice midterms](https://drive.google.com/drive/folders/1ywgMNRm0hjVzzTXHyzvzKN4UTLz5Dg4p?usp=share_link) -->
 
