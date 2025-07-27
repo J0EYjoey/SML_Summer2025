@@ -66,9 +66,9 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 ## Lecture 6: Gaussian Discriminant Analysis, Naive Bayes
 
-*  [Slides](https://drive.google.com/file/d/1idN7XG-J9UTRhtULkEhAQgn0MsYGwQwW/view?usp=sharing)
-
-<!-- * [Practice midterms](https://drive.google.com/drive/folders/1ywgMNRm0hjVzzTXHyzvzKN4UTLz5Dg4p?usp=share_link) -->
+* [Slides](https://drive.google.com/file/d/1idN7XG-J9UTRhtULkEhAQgn0MsYGwQwW/view?usp=sharing)
+* [Slides with scribbles](https://drive.google.com/file/d/1Qzmq92NZ2WJdtcwaqpNIuaIvhC157b_-/view?usp=sharing)
+ 
 
 <!-- * [Slides with scribbles](https://drive.google.com/file/d/18igSSldzFsHNyzjvrN2yOY5lH0cLkp08/view?usp=sharing) -->
 

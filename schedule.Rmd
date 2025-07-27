@@ -22,7 +22,7 @@ library(kableExtra)
 options(knitr.kable.NA = '')
 
 my_backgrounds <- colorRampPalette(c("white", "cadetblue"))(5)
-row_nums <-sort(c(seq(1,26,4), seq(2,26,4)))
+row_nums <-seq(1,26,2)
 
 summercourseschedule <- read_csv("Summer2025_schedule - Sheet1.csv")
 knitr::kable(summercourseschedule[1:26,]) %>%
