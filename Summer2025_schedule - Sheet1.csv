@@ -9,4 +9,4 @@ Week,Date,Session,Title,Suggested Readings
 ,18-Jul,Lecture ,"Confusion Matrix, Convex Opt and Multiclass-Logistic Regression","ESL 4.4, ISL 2.2, 4.1-4.3"
 4,21-Jul,Midterm ,,
 ,25-Jul,Tutorial,GD with torch,
-,25-Jul,Lecture ,"LDA, QDA and Naive Bayes","ISL 4.4 ESL 4.1-4.32, MLAPP 4.1-4.2"
+,25-Jul,Lecture ,"LDA, QDA and Naive Bayes","ISL 4.4, ESL 4.1-4.32, MLAPP 4.1-4.2"
