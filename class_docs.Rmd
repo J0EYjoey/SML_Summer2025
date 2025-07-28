@@ -72,8 +72,7 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 ## Lecture 7: Moving beyond linearity 
 
 * [Slides](https://drive.google.com/file/d/1pOoEYA8ZI3Mkjr3YgMEiR4xoCWLUPr-4/view?usp=sharings)
-
-<!-- * [Slides with scribbles](https://drive.google.com/file/d/18igSSldzFsHNyzjvrN2yOY5lH0cLkp08/view?usp=sharing) -->
+* [Slides with scribbles](https://drive.google.com/file/d/1SR87tsmueDnqF5fivoN-7rnbgM-JQZuV/view?usp=sharing)
 
 <!-- ## Lecture 7: Review -->
 
