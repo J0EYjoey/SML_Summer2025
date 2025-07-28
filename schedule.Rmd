@@ -32,9 +32,9 @@ knitr::kable(summercourseschedule[1:26,]) %>%
 
 ```
 
-<br>
+ 
 
-# <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Evaluation Details
+
 
 Assignments are to be submitted via Crowdmark.
 
