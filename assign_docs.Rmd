@@ -31,4 +31,8 @@ All assignments will be posted to this section approximately 1-2 weeks before th
 * [Problem 4 Data](https://github.com/J0EYjoey/SML_Summer2025/raw/refs/heads/main/Data/A2_data/P4data.zip)
 
 
+## Assignment 3 (due 11-August)
+
+* [Handouts](https://drive.google.com/file/d/1QVgHikTmbbN6q_GytiuG6GjY0xoPQ7jC/view?usp=sharing)
+* [Code](https://drive.google.com/file/d/1rtTvHC6mModd2Jdx0iKfoUew8VE2xHQA/view?usp=sharing)
 
