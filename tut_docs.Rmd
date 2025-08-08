@@ -29,6 +29,10 @@ library(tidyverse)
 
 * [Code](https://colab.research.google.com/drive/1X3bEav-DZozmaWx-o3g0GgDSkBd5tQvD?usp=sharing)
 
+## Tutorial 4: Deep Learning with torch
+
+* [Code](https://colab.research.google.com/drive/1QQ3yGOPmYTO41J-Ga-tuagGXJud2jv8V?usp=sharing)
+
 <!-- * [Problems](https://drive.google.com/file/d/113-KBs8AEoFSmmrhuqKPM5S4vDS-4z7r/view?usp=sharing) -->
 <!-- * [Solution](https://drive.google.com/file/d/1QBKihanEV7wJsBzbCEYHcnKAYsIxp_HK/view?usp=sharing)  -->
 <!-- * [Extra (can open using Google colab or download)](https://drive.google.com/file/d/1RjM8KyxbMqMw-2bOBHalJZHCuO4LSo9e/view?usp=sharing) -->
