@@ -22,11 +22,13 @@ library(kableExtra)
 options(knitr.kable.NA = '')
 
 my_backgrounds <- colorRampPalette(c("white", "cadetblue"))(5)
-row_nums <-seq(1,26,2)
+row_nums <-seq(1,19,2)
 
 summercourseschedule <- read_csv("Summer2025_schedule - Sheet1.csv")
 knitr::kable(summercourseschedule[1:26,]) %>%
   kable_styling(full_width = T, position = "float_left")   %>%
+  column_spec(1, width = "0.3cm") %>% 
+   column_spec(2, width = "2cm") %>% 
   row_spec(row_nums ,background = my_backgrounds[2])
 
 
