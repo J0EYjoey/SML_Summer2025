@@ -77,9 +77,8 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 ## Lecture 8: Unsupervised Learning
 
 * [Slides](https://drive.google.com/file/d/1-atp3B1fyhHFVzhbjM3WC0MjXZfGnF-a/view?usp=sharing)
-
-<!-- ## Lecture 7: Review -->
-
+* [Slides with scribbles](https://drive.google.com/file/d/1qNBa4hM6yH-pujGQi0ts29IUW2SZ768b/view?usp=sharing)
+ 
 <!-- * [Slides](https://drive.google.com/file/d/1P4MO7-UTRKYp0QHolKJjG6g8TaVoM1jO/view?usp=sharing) -->
 
 <!-- * [Slides with scribbles](https://drive.google.com/file/d/1pDwHDEoQfbNpD5OJb5MSOn6bw5LeZphB/view?usp=sharing) -->
