@@ -11,3 +11,7 @@ Week,Date,Session,Title,Suggested Readings
 ,25-Jul,Tutorial,GD with torch,
 ,25-Jul,Lecture ,"LDA, QDA and Naive Bayes","ISL 4.4, ESL 4.1-4.32, MLAPP 4.1-4.2"
 5,28-Jul,Lecture ,Moving beyond linearity,"ESL 61-6.2, ISL 10.1-10.2, 10.7"
+,01-Aug,No Class,,
+6,04-Aug,No Class,,
+,08-Aug,Tutorial,PyTorch Tutorial,
+,08-Aug,Lecture ,Unsupervised Learning: PCA and K-means Clustering,"MLAPP 12.2, ISL 12.1-12.4"
